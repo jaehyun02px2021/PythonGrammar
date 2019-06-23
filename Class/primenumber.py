@@ -20,8 +20,12 @@ print(primenumber)
 
 
 
+
+
+
 for x in range(2, 100):
     if x > 3 :
         for y in range(2, x):
             if x % y == 0 :
                 break
+            print(x)
