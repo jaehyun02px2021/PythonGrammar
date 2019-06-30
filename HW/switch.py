@@ -12,3 +12,4 @@ def switch(checkVar) :
         case 3 :
 
     }
+ 
