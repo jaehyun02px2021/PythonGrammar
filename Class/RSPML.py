@@ -2,10 +2,12 @@
 #
 # def winorlose (userinput, computerinput):
 #     dif = computerinput - userinput
-#     if dif < 1 and dif > 0:
+#     if dif == 0
+#         return "draw"
+#     elif dif == 1 or dif == -2
 #         return "user wins"
-#     elif dif < 0 and abs(dif)
-#         return
+#     else
+#         return "computer wins"
 
 import random
 
