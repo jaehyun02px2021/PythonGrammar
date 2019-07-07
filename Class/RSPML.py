@@ -1,15 +1,10 @@
 # import random
-#
-# def winorlose (userinput, computerinput):
-#     dif = computerinput - userinput
-#     if dif == 0
-#         return "draw"
-#     elif dif == 1 or dif == -2
-#         return "user wins"
-#     else
-#         return "computer wins"
+
 
 import random
+
+
+
 
 numberOfR = 0
 numberOfS = 0
@@ -28,19 +23,28 @@ def computerSMART (rsc, RSboundary, SPboundary) :
         print ("computer Scissors")
         return 2
 
-
 def winorlose (userinput, computerinput):
     dif = computerinput - userinput
     if dif == 0:
-        return "Draw"
-    if dif == 1:
-        return "Computer Loses"
-    if dif == 2:
-        return "Computer Wins"
-    if dif == -1:
-        return "Computer Wins"
-    if dif == -2:
-        return "Computer Loses"
+        return "draw"
+    elif dif == 1 or dif == -2:
+        return "user wins"
+    else:
+        return "computer wins"
+
+
+# def winorlose (userinput, computerinput):
+#     dif = computerinput - userinput
+#     if dif == 0:
+#         return "Draw"
+#     if dif == 1:
+#         return "Computer Loses"
+#     if dif == 2:
+#         return "Computer Wins"
+#     if dif == -1:
+#         return "Computer Wins"
+#     if dif == -2:
+#         return "Computer Loses"
 
 while(1) :
     choice = int(input())
