@@ -1,0 +1,9 @@
+graph LR
+  Main --> Gathering
+  Main --> Formatting
+  Main --> Analyzing
+  Gathering --> Research
+  Gathering --> Survey
+  Analyzing --> Plotting
+  Analyzing --> df["Reporting (Single Var)"]
+  Analyzing --> dd["LeastSquare (Double Var)"]
