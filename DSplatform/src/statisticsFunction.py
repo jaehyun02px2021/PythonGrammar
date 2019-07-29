@@ -55,11 +55,20 @@ def getQ1Q3(Arr):
 
 
 def getOutLier(Arr) :
-    for num in Arr:
-        if num < 1.5*
+    # for num in Arr:
+    #   if num < 1.5:
+    return 44
 
 def getSTDEV(Arr):
-    return np.std(Arr)
+    sum = 0;
+    mean = getMean(Arr)
+    for i in range(len(Arr)) :
+        sum += (Arr[i] - mean ) ** 2
+
+    sum /= len(Arr)  -1
+    sum **= 1/2
+    return sum
+    # return np.std(Arr) : numpy's std divides by n, not (n-1)
 
 def getRange(Arr):
     return 1

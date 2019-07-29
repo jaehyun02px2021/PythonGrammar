@@ -14,7 +14,7 @@ def fileSeperator(elementSeperator, fileName):
         resultArr.append(line.split(elementSeperator))
 
     for strNum in resultArr[1]:
-        realResultArr.append(int(strNum))
+        realResultArr.append(float(strNum))
     return realResultArr
 
 

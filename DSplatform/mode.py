@@ -2,7 +2,7 @@ import src.formatting as formatting
 import src.SurveyInput as SurveyInput
 import src.Plotting as Plotting
 import src.Reporting as Reporting
-import src.LeastSquare  as LeastSquare
+import src.LeastSquare as LeastSquare
 
 modeHeader = """
 ====={}====
@@ -42,8 +42,8 @@ Research = mode("Research", "sdgf", [], [])
 Survey = mode("Survey", "sdg", [], [SurveyInput.SurveyInput])
 
 Reporting = mode("Reporting", "asdf", [], [Reporting.Reporting])
-Plotting = mode("Plotting", "daf", [], [])
-LeastSquare = mode("LeastSquare", "dfdfd", [], [])
+Plotting = mode("Plotting", "daf", [], [Plotting.Plotting])
+LeastSquare = mode("LeastSquare", "dfdfd", [], [LeastSquare.LeastSquare])
 
 
 Analyzing = mode("Analyzing", 'SFD', [Reporting, Plotting, LeastSquare],[])
